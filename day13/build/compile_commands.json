@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/Acceptor.cpp.o -c /home/lk/30dayServer/day13/src/Acceptor.cpp",
+  "file": "/home/lk/30dayServer/day13/src/Acceptor.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/Buffer.cpp.o -c /home/lk/30dayServer/day13/src/Buffer.cpp",
+  "file": "/home/lk/30dayServer/day13/src/Buffer.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/Channel.cpp.o -c /home/lk/30dayServer/day13/src/Channel.cpp",
+  "file": "/home/lk/30dayServer/day13/src/Channel.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/Connection.cpp.o -c /home/lk/30dayServer/day13/src/Connection.cpp",
+  "file": "/home/lk/30dayServer/day13/src/Connection.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/Epoll.cpp.o -c /home/lk/30dayServer/day13/src/Epoll.cpp",
+  "file": "/home/lk/30dayServer/day13/src/Epoll.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/EventLoop.cpp.o -c /home/lk/30dayServer/day13/src/EventLoop.cpp",
+  "file": "/home/lk/30dayServer/day13/src/EventLoop.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/Server.cpp.o -c /home/lk/30dayServer/day13/src/Server.cpp",
+  "file": "/home/lk/30dayServer/day13/src/Server.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/Socket.cpp.o -c /home/lk/30dayServer/day13/src/Socket.cpp",
+  "file": "/home/lk/30dayServer/day13/src/Socket.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/ThreadPool.cpp.o -c /home/lk/30dayServer/day13/src/ThreadPool.cpp",
+  "file": "/home/lk/30dayServer/day13/src/ThreadPool.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/src",
+  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -fPIC -std=gnu++11 -o CMakeFiles/pine_shared.dir/util.cpp.o -c /home/lk/30dayServer/day13/src/util.cpp",
+  "file": "/home/lk/30dayServer/day13/src/util.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/test",
+  "command": "/usr/bin/c++  -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -std=gnu++11 -o CMakeFiles/thread_test.dir/thread_test.cpp.o -c /home/lk/30dayServer/day13/test/thread_test.cpp",
+  "file": "/home/lk/30dayServer/day13/test/thread_test.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/test",
+  "command": "/usr/bin/c++  -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -std=gnu++11 -o CMakeFiles/single_client.dir/single_client.cpp.o -c /home/lk/30dayServer/day13/test/single_client.cpp",
+  "file": "/home/lk/30dayServer/day13/test/single_client.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/test",
+  "command": "/usr/bin/c++  -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -std=gnu++11 -o CMakeFiles/multi_client.dir/multi_client.cpp.o -c /home/lk/30dayServer/day13/test/multi_client.cpp",
+  "file": "/home/lk/30dayServer/day13/test/multi_client.cpp"
+},
+{
+  "directory": "/home/lk/30dayServer/day13/build/test",
+  "command": "/usr/bin/c++  -I/home/lk/30dayServer/day13/src/include -I/home/lk/30dayServer/day13/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -std=gnu++11 -o CMakeFiles/server.dir/server.cpp.o -c /home/lk/30dayServer/day13/test/server.cpp",
+  "file": "/home/lk/30dayServer/day13/test/server.cpp"
+}
+]

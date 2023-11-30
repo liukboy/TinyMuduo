@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -std=c++14 -fPIC -pthread -rdynamic CMakeFiles/main.dir/main.o -o ../bin/main  -Wl,-rpath,/home/lk/21DaysMuduo/Day01/lib ../../lib/libmymuduo.so 

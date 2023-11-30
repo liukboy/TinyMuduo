@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lk/21DaysMuduo/Day01/test/inline_test.h
+iostream
+-
+
+/home/lk/21DaysMuduo/Day01/test/main.cpp
+inline_test.h
+/home/lk/21DaysMuduo/Day01/test/inline_test.h
+functional
+-
+memory
+-
+

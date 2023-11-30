@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes  -fPIC CMakeFiles/thread_test.dir/thread_test.cpp.o -o ../bin/thread_test  -Wl,-rpath,/home/lk/30dayServer/day13/build/lib ../lib/libpine_shared.so 

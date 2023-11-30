@@ -1,0 +1,17 @@
+/home/lk/30dayServer/day13/build/CMakeFiles/rebuild_cache.dir
+/home/lk/30dayServer/day13/build/CMakeFiles/edit_cache.dir
+/home/lk/30dayServer/day13/build/CMakeFiles/clang-tidy.dir
+/home/lk/30dayServer/day13/build/CMakeFiles/cpplint.dir
+/home/lk/30dayServer/day13/build/CMakeFiles/check-format.dir
+/home/lk/30dayServer/day13/build/CMakeFiles/format.dir
+/home/lk/30dayServer/day13/build/src/CMakeFiles/rebuild_cache.dir
+/home/lk/30dayServer/day13/build/src/CMakeFiles/edit_cache.dir
+/home/lk/30dayServer/day13/build/src/CMakeFiles/pine_shared.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/rebuild_cache.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/edit_cache.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/thread_test.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/single_client.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/multi_client.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/check-tests.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/server.dir
+/home/lk/30dayServer/day13/build/test/CMakeFiles/build-tests.dir

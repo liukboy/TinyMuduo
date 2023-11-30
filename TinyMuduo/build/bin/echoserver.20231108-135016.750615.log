@@ -1,0 +1,85 @@
+20231108 05:50:16[DEBUG] EventLoop created in thread 750615 ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 38
+20231108 05:50:16[INFO]  func= updateChannel => fd= 4 events=3 index= -1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 74
+20231108 05:50:16[DEBUG] EventLoop created in thread 750617 ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 38
+20231108 05:50:16[INFO]  func= updateChannel => fd= 7 events=3 index= -1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 74
+20231108 05:50:16[INFO]  EventLoop 1start looping  ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 68
+20231108 05:50:16[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:16[DEBUG] EventLoop created in thread 750618 ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 38
+20231108 05:50:16[INFO]  func= updateChannel => fd= 10 events=3 index= -1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 74
+20231108 05:50:16[INFO]  EventLoop 1start looping  ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 68
+20231108 05:50:16[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:16[DEBUG] EventLoop created in thread 750619 ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 38
+20231108 05:50:16[INFO]  func= updateChannel => fd= 12 events=3 index= -1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 74
+20231108 05:50:16[INFO]  func= updateChannel => fd= 5 events=3 index= -1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 74
+20231108 05:50:16[INFO]  EventLoop 1start looping  ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 68
+20231108 05:50:16[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:16[INFO]  EventLoop 1start looping  ----- /home/lk/21DaysMuduo/Day01/net/EventLoop.cpp : 68
+20231108 05:50:16[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:25[INFO]  1events happened. ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 43
+20231108 05:50:25[INFO]  channel handleEvent revents: 1 ----- /home/lk/21DaysMuduo/Day01/net/Channel.cpp : 64
+20231108 05:50:25[INFO]  TcpServer::newConnectionEchoServer-01- new connection EchoServer-01-127.0.0.1:8000#1  from 127.0.0.1:53560 ----- /home/lk/21DaysMuduo/Day01/net/TcpServer.cpp : 76
+20231108 05:50:25[INFO]  TcpConnection::ctor[ EchoServer-01-127.0.0.1:8000#1] at fd=13 ----- /home/lk/21DaysMuduo/Day01/net/TcpConnection.cpp : 50
+20231108 05:50:25[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:25[INFO]  1events happened. ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 43
+20231108 05:50:25[INFO]  channel handleEvent revents: 1 ----- /home/lk/21DaysMuduo/Day01/net/Channel.cpp : 64
+20231108 05:50:25[INFO]  func= updateChannel => fd= 13 events=3 index= -1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 74
+20231108 05:50:25[INFO]  Connection UP : 127.0.0.1:53560 ----- /home/lk/21DaysMuduo/Day01/test/testserver.cpp : 38
+20231108 05:50:25[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:26[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:26[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:26[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:26[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:35[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:35[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:35[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:35[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:36[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:36[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:36[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:36[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:45[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:45[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:45[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:45[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:46[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:46[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:46[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:46[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:55[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:55[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:55[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:55[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:56[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:56[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:50:56[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:50:56[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:04[INFO]  1events happened. ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 43
+20231108 05:51:04[INFO]  channel handleEvent revents: 1 ----- /home/lk/21DaysMuduo/Day01/net/Channel.cpp : 64
+20231108 05:51:04[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:04[INFO]  1events happened. ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 43
+20231108 05:51:04[INFO]  channel handleEvent revents: 17 ----- /home/lk/21DaysMuduo/Day01/net/Channel.cpp : 64
+20231108 05:51:04[INFO]  TcpConnection::handleClose fd= 13state=3 ----- /home/lk/21DaysMuduo/Day01/net/TcpConnection.cpp : 243
+20231108 05:51:04[INFO]  func= updateChannel => fd= 13 events=0 index= 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 74
+20231108 05:51:04[INFO]  Connection DOWN : 127.0.0.1:53560 ----- /home/lk/21DaysMuduo/Day01/test/testserver.cpp : 42
+20231108 05:51:04[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:04[INFO]  1events happened. ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 43
+20231108 05:51:04[INFO]  channel handleEvent revents: 1 ----- /home/lk/21DaysMuduo/Day01/net/Channel.cpp : 64
+20231108 05:51:04[INFO]  TcpServer::removeConnectionInLoop EchoServer-01 - connectionEchoServer-01-127.0.0.1:8000#1 ----- /home/lk/21DaysMuduo/Day01/net/TcpServer.cpp : 116
+20231108 05:51:04[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:04[INFO]  1events happened. ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 43
+20231108 05:51:04[INFO]  channel handleEvent revents: 1 ----- /home/lk/21DaysMuduo/Day01/net/Channel.cpp : 64
+20231108 05:51:04[INFO]  func=removeChannel => fd=13 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 108
+20231108 05:51:04[INFO]  TcpConnection::dtor[EchoServer-01-127.0.0.1:8000#1] at fd= 13state= 0 ----- /home/lk/21DaysMuduo/Day01/net/TcpConnection.cpp : 56
+20231108 05:51:04[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:06[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:51:06[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:06[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:51:06[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:14[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:51:14[INFO]  func= poll => fd total count: 2 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:14[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:51:14[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:16[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:51:16[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
+20231108 05:51:16[DEBUG] polltimeout!  ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 52
+20231108 05:51:16[INFO]  func= poll => fd total count: 1 ----- /home/lk/21DaysMuduo/Day01/net/EPollPoller.cpp : 35
