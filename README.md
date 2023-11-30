@@ -41,3 +41,20 @@ autobuild脚本会将整个项目编译,可执行文件在build/bin目录下
 * TcpServer：集大成者，负责协调各个类之间的关系，实现多线程、多连接的网络编程
 * Buffer：实现缓冲区
 * TcpConnection：实现建立和客户端的新连接，处理连接上的数据发送和接收
+
+### 技术亮点
+1. EventLoop中使用了eventfd来调用wakeup()，让mainloop唤醒subloop的epoll_wait阻塞
+2. 在EventLoop中注册回调cb至pendingFunctors_，并在doPendingFunctors中通过swap()的方式，快速换出注册的回调，只在swap()时加锁，减少代码临界区长度，提升效率。（若不通过swap()的方式去处理，而是加锁执行pendingFunctors中的回调，然后解锁，会出现什么问题呢？1. 临界区过大，锁降低了服务器响应效率 2. 若执行的回调中执行queueInLoop需要抢占锁时，会发生死锁）
+3. Logger可以设置日志等级，调试代码时可以开启DEBUG打印日志；若启动服务器，由于日志会影响服务器性能，可适当关闭DEBUG相关日志输出
+4. muduo采用Reactor模型和多线程结合的方式，实现了高并发非阻塞网络库
+
+### TODO
+1. 定时器模块
+2. 实现功能性配套程序，比如HTTP服务器
+3. 单元测试
+
+
+### 感谢
+- 《Linux高性能服务器编程》
+- 《Linux多线程服务端编程：使用muduo C++网络库》
+- https://github.com/chenshuo/muduo
